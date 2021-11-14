@@ -43,30 +43,21 @@ ul.recipes {
 }
 
 .recipes {
-    height: 160px;
     display: flex;
     flex: 1;
-    justify-content: space-between;
-    flex-direction: row;
+    gap: 10px;
     flex-wrap: wrap;
     padding: 0px;
 }
 
 .card {
-    width: 160px;
-    /*height: 160px;*/
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
     background-color:rgba(248, 177, 46, 0.548);
     display: flex;
     border: 1px solid rgb(11, 205, 253);
     box-shadow: 2px 4px 16px rgba(49, 49, 46, 0.46);
-    
-    border-radius: 50%;
-
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    border-radius: 4px;
     text-decoration: none;
     color: rgb(48, 45, 45);
     font-weight: bold;
@@ -76,17 +67,3 @@ a:hover {
     background-color: darkturquoise;
     box-shadow: 1px 10px 26px rgba(49, 49, 46, 0.96);
 }
-
-/*
-img {
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-    width: 50%;
-    max-width: 80ch;
-}
-
-p {
-    max-width: 80ch;
-}
-*/
