@@ -1,3 +1,5 @@
 # odin-recipes
 
-Making a recipe website.
+A humourous recipe website.
+
+https://ravanbak.github.io/odin-recipes/
